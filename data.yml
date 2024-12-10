@@ -1,0 +1,9 @@
+train: /teamspace/studios/this_studio/dataset/train/images  
+test: /teamspace/studios/this_studio/dataset/test/images
+val: /teamspace/studios/this_studio/dataset/val/images 
+
+nc: 3                          
+names:
+- WBC
+- RBC
+- Platelets
