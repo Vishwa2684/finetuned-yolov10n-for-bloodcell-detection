@@ -4,7 +4,7 @@ from PIL import Image
 import cv2
 
 # Load the YOLO model
-model = YOLO("model/yolov10n_blood.onnx")
+model = YOLO("/teamspace/studios/this_studio/model/yolov10n_blood.onnx")
 
 def predict(image):
     """
