@@ -80,7 +80,7 @@ results.show()
 - **Training Environment**: L4 GPU
 
 ## 📦 Model Weights
-- Available for download: [Model Link]
+- Available for download: [Model Link](https://github.com/Vishwa2684/finetuned-yolov10n-for-bloodcell-detection/blob/main/model/yolov10n_blood.onnx)
 
 ## 🙌 Acknowledgements
 - [BCCD Dataset](https://github.com/Shenggan/BCCD_Dataset)
