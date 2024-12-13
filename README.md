@@ -24,17 +24,13 @@ This project implements a custom object detection model for identifying blood ce
 - **mAP50-95**: 76.03%
 - **Fitness Score**: 0.780
 
-### Dataset Configuration
-```yaml
-train: /teamspace/studios/this_studio/dataset/train/images  
-test: /teamspace/studios/this_studio/dataset/test/images
-val: /teamspace/studios/this_studio/dataset/val/images 
-nc: 3                          
-names:
-- WBC
-- RBC
-- Platelets
-```
+### Per-Class Metrics
+| Class | Precision | Recall | mAP50 | mAP50-95 |
+| ----- | --------- | ------ | ----- | -------- |
+| all   | 0.937     | 0.947  | 0.971 | 0.778    |
+| WBC   | 0.975     | 0.984  | 0.991 | 0.895    |
+| RBC   | 0.934     | 0.96   | 0.975 | 0.803    |
+| Platelets | 0.901 | 0.897  | 0.947 | 0.637    |
 
 ## 🚀 Deployment
 - **Platform**: Hugging Face Spaces
@@ -85,6 +81,9 @@ results.show()
 ## 🙌 Acknowledgements
 - [BCCD Dataset](https://github.com/Shenggan/BCCD_Dataset)
 - [YOLOv10 Repository](https://github.com/THU-MIG/yolov10)
+
+## 📄 License
+GNU AFFERO GENERAL PUBLIC LICENSE
 
 ## 🐛 Issues and Contributions
 Please report any issues or submit pull requests to the project repository.
