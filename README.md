@@ -56,8 +56,6 @@ git clone <your-repo-link>
 # Install dependencies
 pip install ultralytics torch
 
-# Download the model
-wget <link-to-your-model>
 ```
 
 ## 📝 Usage
@@ -87,9 +85,6 @@ results.show()
 ## 🙌 Acknowledgements
 - [BCCD Dataset](https://github.com/Shenggan/BCCD_Dataset)
 - [YOLOv10 Repository](https://github.com/THU-MIG/yolov10)
-
-## 📄 License
-[Add your license information here]
 
 ## 🐛 Issues and Contributions
 Please report any issues or submit pull requests to the project repository.
